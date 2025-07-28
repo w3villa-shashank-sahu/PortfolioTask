@@ -49,7 +49,7 @@ const Hero = () => {
               size="lg"
               className="hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-105"
             >
-              <a href="/online_share_cv.pdf" download="Shashank_Mani_Sahu_CV.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/online_share_cv.pdf" download="Shashank_Mani_Sahu_CV.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center">
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
               </a>

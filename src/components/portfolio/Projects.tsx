@@ -12,7 +12,7 @@ const Projects = () => {
       tech: ["Flutter", "Bloc State Management", "MVC Architecture"],
       features: ["Modern UI", "Custom Authentication", "Real-time Email Notifications"],
       github: "https://github.com/shashank1q/profolio",
-      type: "Flutter Web App"
+      type: "Flutter Web App",
     },
     {
       title: "Task Tracker WebApp (Flutter)",
@@ -24,13 +24,13 @@ const Projects = () => {
       type: "Flutter Web App"
     },
     {
-      title: "WeResume Showcase App (Flutter)",
-      description: "Built a dynamic developer app using the Pixabay API to fetch and display real-time updated images. Designed a modern UI with smooth animations and integrated features for downloading wallpapers.",
+      title: "Suduko Solver (Flutter)",
+      description: "A Website built with Flutter to solve Sudoku puzzles. Features a modern UI, and smooth animations. Used Backtracking algorithm for solving sudoku puzzles.",
       icon: <Smartphone className="h-6 w-6" />,
       tech: ["Flutter", "Pixabay API", "Modern UI", "API Integration"],
-      features: ["Dynamic Content", "Real-time Updates", "Download Feature", "Smooth Animations"],
+      features: ["Dynamic Content", "Backtracking Algorithm", "Smooth Animations"],
       github: "https://github.com/shashank1q/SudukoSolver",
-      type: "Flutter Mobile App"
+      type: "Flutter Web App"
     },
     {
       title: "Business Management Software (Java)",
@@ -38,7 +38,8 @@ const Projects = () => {
       icon: <Database className="h-6 w-6" />,
       tech: ["Java", "Stock Management", "Sales Analysis", "Performance Tracking"],
       features: ["Stock Management", "Sales Analysis", "Performance Tracking", "Team Collaboration"],
-      type: "Desktop Application"
+      type: "Desktop Application",
+      link: "https://drive.google.com/file/d/1M17K5QpUzlUdvUirICRRZ8Zl2lxWTYD4/view"
     }
   ];
 
@@ -125,13 +126,16 @@ const Projects = () => {
                         Code
                       </Button>
                     )}
-                    <Button 
-                      size="sm"
-                      className="bg-gradient-primary hover:shadow-soft transition-all duration-300"
-                    >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      View Project
-                    </Button>
+                    {project.link && (
+                      <Button 
+                        size="sm"
+                        className="bg-gradient-primary hover:shadow-soft transition-all duration-300"
+                        onClick={() => window.open(project.link, "_blank")}
+                      >
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        View Project
+                      </Button>
+                    )}
                   </div>
                 </CardContent>
               </Card>
