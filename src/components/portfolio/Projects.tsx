@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Github, ExternalLink, Smartphone, Globe, Database } from "lucide-react";
+import { link } from "fs";
 
 const Projects = () => {
   const projects = [
@@ -13,6 +14,7 @@ const Projects = () => {
       features: ["Modern UI", "Custom Authentication", "Real-time Email Notifications"],
       github: "https://github.com/shashank1q/profolio",
       type: "Flutter Web App",
+      link: "https://profolio.live/"
     },
     {
       title: "Task Tracker WebApp (Flutter)",
@@ -21,7 +23,8 @@ const Projects = () => {
       tech: ["Flutter", "Firebase", "CRUD Operations", "Authentication"],
       features: ["Task Management", "User Authentication", "Real-time Updates", "Responsive Design"],
       github: "https://github.com/shashank1q/TodoNest",
-      type: "Flutter Web App"
+      type: "Flutter Web App",
+      link: "https://shashank1q.github.io/TodoNest/"
     },
     {
       title: "Suduko Solver (Flutter)",
@@ -30,7 +33,9 @@ const Projects = () => {
       tech: ["Flutter", "Pixabay API", "Modern UI", "API Integration"],
       features: ["Dynamic Content", "Backtracking Algorithm", "Smooth Animations"],
       github: "https://github.com/shashank1q/SudukoSolver",
-      type: "Flutter Web App"
+      type: "Flutter Web App",
+      link: "https://shashank1q.github.io/SudukoSolver/"
+
     },
     {
       title: "Business Management Software (Java)",
