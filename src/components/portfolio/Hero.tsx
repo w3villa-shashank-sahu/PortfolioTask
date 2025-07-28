@@ -49,25 +49,27 @@ const Hero = () => {
               size="lg"
               className="hover:bg-accent hover:text-accent-foreground transition-all duration-300 hover:scale-105"
             >
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
+              <a href="/online_share_cv.pdf" download="Shashank_Mani_Sahu_CV.pdf" target="_blank" rel="noopener noreferrer">
+                <Download className="mr-2 h-4 w-4" />
+                Download CV
+              </a>
             </Button>
           </div>
 
           <div className="flex items-center justify-center space-x-6 animate-fade-in-up" style={{ animationDelay: "0.8s" }}>
             <a
-              href="mailto:shashankpatel.sm@gmail.com"
+              href="mailto:shashank1q@gmail.com"
               className="flex items-center space-x-2 text-muted-foreground hover:text-accent transition-colors duration-300"
             >
               <Mail className="h-5 w-5" />
-              <span>shashankpatel.sm@gmail.com</span>
+              <span>shashank1q@gmail.com</span>
             </a>
             <a
-              href="tel:+918368772755"
+              href="tel:+8808712755"
               className="flex items-center space-x-2 text-muted-foreground hover:text-accent transition-colors duration-300"
             >
               <Phone className="h-5 w-5" />
-              <span>+91 8368772755</span>
+              <span>+91 8808712755</span>
             </a>
           </div>
         </div>
