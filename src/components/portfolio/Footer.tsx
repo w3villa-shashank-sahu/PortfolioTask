@@ -68,20 +68,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
-          {/* Bottom Section */}
-          <div className="pt-8 border-t border-gray-700">
-            <div className="flex flex-col md:flex-row items-center justify-between text-gray-300">
-              <div className="flex items-center space-x-2 mb-4 md:mb-0">
-                <span>© {currentYear} Shashank Sahu. All rights reserved.</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <span>Made with</span>
-                <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-                <span>using React & Tailwind CSS</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </footer>
