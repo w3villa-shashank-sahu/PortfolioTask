@@ -30,7 +30,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="font-bold text-xl animate-fade-in">
             <span className="text-black-primary">Shashank</span>
-            <span className="text-accent"> Mani</span>
+            <span className="text-accent"> Sahu</span>
           </div>
 
           {/* Desktop Navigation */}
