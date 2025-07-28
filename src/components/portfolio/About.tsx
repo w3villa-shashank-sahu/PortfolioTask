@@ -15,8 +15,8 @@ const About = () => {
     },
     {
       icon: <BookOpen className="h-6 w-6" />,
-      title: "Open Source Contributor",
-      description: "500 Voucher in Open Coding Round Cold Gladiators 2024 by TechGig"
+      title: "TechGig Contest Winner",
+      description: "Won 500 Voucher in Open Coding Round Cold Gladiators 2024 by TechGig"
     }
   ];
 
